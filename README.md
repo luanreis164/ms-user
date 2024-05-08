@@ -13,6 +13,7 @@
 - Springdoc OpenAPI
 - PostgreSQL
 - Maven
+- API ViaCEP
 
 ## Pré-requisitos para rodar localmente
 
@@ -35,8 +36,7 @@
     - Utilizado CloudAMQP para configuração de uma instancia de RabbitMQ e gerenciamento de filas e exchanges
     - `spring.rabbitmq.addresses =endereco_gerado`
     - `broker.queue.email.name=default.email`
-4. Execute a aplicação - Utilizando IntelliJ.Acesse a documentação da API Swagger:
-
+4. Execute a aplicação -  Acesse a documentação da API Swagger:
    Após iniciar a aplicação, você pode acessar a documentação da API Swagger em:
    http://localhost:8081/swagger-ui/index.html
 
