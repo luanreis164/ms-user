@@ -1,6 +1,7 @@
 # ms-pessoa
 
 `ms-pessoa` é um microserviço responsável por gerenciar usuários (pessoas) e fornecer operações CRUD (Create, Read, Update, Delete) relacionadas a usuários. Também tem um producer em uma queue RabbitMQ que produz mensagens de envio de email;Sendo consumido pelo microserviço `ms-email`
+![image](https://github.com/luanreis164/ms-user/assets/76753597/052cb824-3b40-46f4-9c9a-493c79679ab9)
 
 ## Tecnologias Utilizadas
 
